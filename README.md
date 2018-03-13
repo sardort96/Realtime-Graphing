@@ -26,6 +26,6 @@ Reinforcement learning is something in between supervised and unsupervised learn
 
 Using the Naive Bayes' Classifier to predict the number of people would fall under supervised learning. We can estimate the prior probabilities by looking at how often each figure appeared and use it as a training set. Then it is possible to get conditional probabilities from the values for the trainig set.
 
-References:
-\[1\] Stephen Marsland. Machine Learning: An Algorithmic Perspective. Second Edition, CRC Press, 2015.
+References:<br />
+\[1\] Stephen Marsland. Machine Learning: An Algorithmic Perspective. Second Edition, CRC Press, 2015.<br />
 \[2\] Amir M. Rahmani, Pasi Liljeberg, Jurgo-Soren Preden, and Axel Jantsch. Fog Computing in the Internet of Things: Intelligence at the Edge. 
