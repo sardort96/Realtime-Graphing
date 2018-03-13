@@ -12,3 +12,17 @@ The term **IoT** originates to MIT Auto-ID center when Kevin Ashton chose it in 
 The following demo exploits PubNub's open-source EON project for creating two real-time graphs. Although it is possible to see open hours through their website [http://www.denisonbigred.com/facilities/trumbull_aquatics_center](http://www.denisonbigred.com/facilities/trumbull_aquatics_center), Trumbull Acquatics Center in Granville, Ohio currently does not have real-time tracking of how busy the pool is. It would be convenient to see the number of people in a particular part of the pool in real time. 
 
 ![](logo/1.PNG)
+
+PubNub's EON framework could help gather the data that would come from IoT devices, whether it be a tablet with google spreadsheets or a respberry pi with a keyboard, located on lifeguard chairs. Each IoT device would serve as a sensor or an actuator that would deliver data to the application. Using EON framework, we can have data from several IoT devices in real time, in our case, on two graphs, one showing the number of people in the pool and the other showing the proportion. 
+
+![](logo/2.PNG)
+
+## Artifical Intelligence
+Incorporating machine learning as a current application of Artificial Intelligence in the final model would enable the prediction of the number of people in the pool at a particular time in the future. There are three types of machine learning: supervised learning, unsupervised learning, reinforcement learning. 
+Supervised learning is where a training set of examples with the correct responses (targets) is provided and based on this training set, the algorithm generalizes to respond correctly to all possible inputs. This is also called learning from exemplars. 
+
+![](logo/2.PNG)
+
+Unsupervised learning, on the other hand, is where the correct responses are not provided, but instead the algorithm tries to identify similarities between the inputs so that inputs that have something in common are categorized together.
+
+Reinforcement learning is something in between supervised and unsupervised learning. The algorithm gets told when the answer is wrong, but does not get told how to correct it.
