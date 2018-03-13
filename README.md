@@ -9,7 +9,7 @@ The Internet of Things (IoT) is a self-configuring and adaptive network which co
 The term **IoT** originates to MIT Auto-ID center when Kevin Ashton chose it in 1999. However, the concept of connecting a device to the Web was already introduced in 1982 by students of Carnegie Mellon University. IoT system consists of two groups: identification & sensing and computation, services, semantics. One way to make an IoT device visible through the Internet is to provide it with an access to a cloud server such that it can interact with the cloud exchanging data, receiving commands and notifications. **PubNub** takes care of it all by itself enabling developers to write real-time solutions without worrying about **cloud computing.** Cloud computing is a model for enabling ubiquitous, convenient, and on-demand network access to a shared pool of resources. PubNub handles additional dimensions of IoT devices that increase their complexity such as diverse hardware, diverse operating systems and software on devices, and diverse network gateway requirements.
 
 ## PubNub EON Demo
-The following demo exploits PubNub's open-source EON project for creating two real-time graphs. Although it is possible to see open hours through their website [http://www.denisonbigred.com/facilities/trumbull_aquatics_center](http://www.denisonbigred.com/facilities/trumbull_aquatics_center), Trumbull Acquatics Center in Granville, Ohio currently does not have real-time tracking of how busy the pool is. It would be convenient to see the number of people in a particular part of the pool in real time. 
+The following demo exploits PubNub's open-source EON project for creating two real-time graphs. Although it is possible to see open hours through their website ([http://www.denisonbigred.com/facilities/trumbull_aquatics_center])(http://www.denisonbigred.com/facilities/trumbull_aquatics_center), Trumbull Acquatics Center in Granville, Ohio currently does not have real-time tracking of how busy the pool is. It would be convenient to see the number of people in a particular part of the pool in real time. 
 
 ![](logo/1.PNG)
 
@@ -24,7 +24,7 @@ Supervised learning is where a training set of examples with the correct respons
 Unsupervised learning, on the other hand, is where the correct responses are not provided, but instead the algorithm tries to identify similarities between the inputs so that inputs that have something in common are categorized together.
 Reinforcement learning is something in between supervised and unsupervised learning. The algorithm gets told when the answer is wrong, but does not get told how to correct it.
 
-Using the Naive Bayes' Classifier to predict the number of people would fall under supervised learning. We can estimate the prior probabilities by looking at how often each figure appeared and use it as a training set. Then it is possible to get conditional probabilities from the values for the trainig set.
+Using the Naive Bayes' Classifier to predict the number of people would fall under supervised learning. We can estimate the prior probabilities by looking at how often each figure appeared and use it as a training set. Then it is possible to get conditional probabilities from the values for the training set.
 
 References:<br />
 \[1\] Stephen Marsland. Machine Learning: An Algorithmic Perspective. Second Edition, CRC Press, 2015.<br />
