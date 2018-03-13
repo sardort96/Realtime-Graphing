@@ -19,10 +19,10 @@ PubNub's EON framework could help gather the data that would come from IoT devic
 
 ## Artifical Intelligence
 Incorporating machine learning as a current application of Artificial Intelligence in the final model would enable the prediction of the number of people in the pool at a particular time in the future. There are three types of machine learning: supervised learning, unsupervised learning, reinforcement learning. 
+
 Supervised learning is where a training set of examples with the correct responses (targets) is provided and based on this training set, the algorithm generalizes to respond correctly to all possible inputs. This is also called learning from exemplars. 
-
-![](logo/sl.png)   ![](logo/sl.png =50x50)
-
 Unsupervised learning, on the other hand, is where the correct responses are not provided, but instead the algorithm tries to identify similarities between the inputs so that inputs that have something in common are categorized together.
-
 Reinforcement learning is something in between supervised and unsupervised learning. The algorithm gets told when the answer is wrong, but does not get told how to correct it.
+
+Using the Naive Bayes' Classifier to predict the number of people would fall under supervised learning. We can estimate the prior probabilities by looking at how often each figure appeared and use it as a training set. Then it is possible to get conditional probabilities from the values for the trainig set.
+
