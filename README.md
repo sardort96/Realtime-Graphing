@@ -1,4 +1,4 @@
-# Realtime-Graphing
+# Realtime Graphing
 Graphing data in real time
 ## PubNub EON
 PubNub is a globally distributed realtime Data Stream Network (DNS) that manages data flow across applications globally. As a global cloud infrastrucrture, it is easy to use, more reliable and less costly in every aspect as opposed to building an infrastructure from scratch. 
